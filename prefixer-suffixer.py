@@ -40,4 +40,4 @@ if __name__ == "__main__":
                     additive = sys.argv[4] == "additive"
         main(particle, filepath, suffix, additive)
     else:
-        print('Usage: python prefixer-suffixer.py particle [directory] [prefix/suffix] [additive]\nExample usage: python prefixer-suffixer.py "Unwanted Suffix" "folder/nestedfolder" suffix')
+        print('Usage: python prefixer-suffixer.py [particle] [directory] [prefix/suffix] [additive]\nExample usage: python prefixer-suffixer.py "Unwanted Suffix" "folder/nestedfolder" suffix')
